@@ -92,27 +92,18 @@ export default function HomeScreen() {
                     id="com.longbridge.weather"
                     icon="http://svgur.com/i/izb.svg"
                   />
-                  <div
-                    style={{
-                      background: 'url(http://svgur.com/i/izb.svg)',
-                      backgroundSize: '100%',
-                    }}
-                    className="w-16 h-16 rounded-xl mx-auto mt-4"
-                  ></div>
-                  <div
-                    style={{
-                      background: 'url(http://svgur.com/i/izb.svg)',
-                      backgroundSize: '100%',
-                    }}
-                    className="w-16 h-16 rounded-xl mx-auto mt-4"
-                  ></div>
-                  <div
-                    style={{
-                      background: 'url(http://svgur.com/i/izb.svg)',
-                      backgroundSize: '100%',
-                    }}
-                    className="w-16 h-16 rounded-xl mx-auto mt-4"
-                  ></div>
+                  <HomeApp
+                    id="com.longbridge.weather"
+                    icon="http://svgur.com/i/izb.svg"
+                  />
+                  <HomeApp
+                    id="com.longbridge.weather"
+                    icon="http://svgur.com/i/izb.svg"
+                  />
+                  <HomeApp
+                    id="com.longbridge.weather"
+                    icon="http://svgur.com/i/izb.svg"
+                  />
                 </div>
               </div>
             </div>
