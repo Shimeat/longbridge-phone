@@ -6,7 +6,7 @@ export default function IOS() {
   return (
     <div
       style={{
-        width: '100%',
+        width: '320px',
         height: '100%',
       }}
     >

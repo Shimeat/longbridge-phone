@@ -9,7 +9,7 @@ export default function HomeSwipe(props) {
             background: `url(${props.icon})`,
             backgroundSize: '100%',
           }}
-          className={`w-16 h-16 rounded-xl mx-auto ${!props.name && 'mt-4'}`}
+          className={`w-16 h-16 rounded-2xl mx-auto ${!props.name && 'mt-3'}`}
         ></div>
         <h6 className="text-xs mx-1 mt-1 text-gray-100">{props.name}</h6>
       </div>

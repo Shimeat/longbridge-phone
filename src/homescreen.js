@@ -22,12 +22,9 @@ export default function HomeScreen() {
       style={{
         background:
           'url(https://media.idownloadblog.com/wp-content/uploads/2021/09/Light_Beams_Blue_Light-iPhone-13-Pro-official-apple-wallpaper.jpg)',
-            // image cover all page, but not adaptive
         backgroundSize: '100%',
-        height: '100%'
-
-
       }}
+      className="w-[320px]"
     >
       <div>
         <StatusBar />
@@ -88,10 +85,10 @@ export default function HomeScreen() {
             icon="http://svgur.com/i/izb.svg"
             name="Погода"
           />
-          <div className="col-span-4 row-span-7 row-start-7 absolute bottom-0 left-0 right-0 mb-8 px-5 w-full">
+          <div className="col-span-4 row-span-7 row-start-7 absolute bottom-0 left-0 right-0 mb-3 px-3 w-full">
             <div>
-              <div className="bg-[rgba(255,255,255,0.3)] h-24 rounded-2xl mx-auto mt-5 ">
-                <div className="grid grid-cols-4 grid-rows-1 gap-y-2">
+              <div className="bg-[rgba(255,255,255,0.3)] h-[5.5rem] rounded-3xl mx-auto mt-2">
+                <div className="grid grid-cols-4 grid-rows-1 gap-[-24px]">
                   <HomeApp
                     id="com.longbridge.weather"
                     icon="http://svgur.com/i/izb.svg"
@@ -113,9 +110,6 @@ export default function HomeScreen() {
             </div>
           </div>
         </div>
-        <HomeSwipe
-
-         />
       </div>
     </Page>
   );
