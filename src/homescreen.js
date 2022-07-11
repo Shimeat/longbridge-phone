@@ -22,7 +22,11 @@ export default function HomeScreen() {
       style={{
         background:
           'url(https://media.idownloadblog.com/wp-content/uploads/2021/09/Light_Beams_Blue_Light-iPhone-13-Pro-official-apple-wallpaper.jpg)',
+            // image cover all page, but not adaptive
         backgroundSize: '100%',
+        height: '100%'
+
+
       }}
     >
       <div>
@@ -109,7 +113,9 @@ export default function HomeScreen() {
             </div>
           </div>
         </div>
-        <HomeSwipe />
+        <HomeSwipe
+
+         />
       </div>
     </Page>
   );
